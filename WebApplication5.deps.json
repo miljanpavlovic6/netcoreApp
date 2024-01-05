@@ -1,0 +1,70 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WebApplication5/1.0.0": {
+        "dependencies": {
+          "Instana.Tracing.Core": "1.263.3",
+          "Instana.Tracing.Core.Rewriter.Windows": "1.263.3"
+        },
+        "runtime": {
+          "WebApplication5.dll": {}
+        }
+      },
+      "Instana.Tracing.Core/1.263.3": {
+        "runtime": {
+          "lib/netstandard2.0/Instana.Tracing.Api.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Instana.Tracing.Core.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Instana.Tracing.Core.Instrumentation.dll": {
+            "assemblyVersion": "1.1.30.0",
+            "fileVersion": "1.1.30.0"
+          },
+          "lib/netstandard2.0/Instana.Tracing.Core.Transport.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Instana.Tracing.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Instana.Tracing.Core.Rewriter.Windows/1.263.3": {
+        "dependencies": {
+          "Instana.Tracing.Core": "1.263.3"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebApplication5/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Instana.Tracing.Core/1.263.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XYKd/LW9gvUbWryHPoozWofUhIxLJRzmdb9vH/4wt7jurg23gpbEsdVjLor/i4NSW+4z26U3kSQYh5Xt5//0Ow==",
+      "path": "instana.tracing.core/1.263.3",
+      "hashPath": "instana.tracing.core.1.263.3.nupkg.sha512"
+    },
+    "Instana.Tracing.Core.Rewriter.Windows/1.263.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eecfVmh5BpY9O7ZFLaO4v/GIRTb5Z7gndTQ99vtLDjdhF8zXtq0RKQOHi74Y35zFi9/ecUieHhQay90FNvZn6Q==",
+      "path": "instana.tracing.core.rewriter.windows/1.263.3",
+      "hashPath": "instana.tracing.core.rewriter.windows.1.263.3.nupkg.sha512"
+    }
+  }
+}
